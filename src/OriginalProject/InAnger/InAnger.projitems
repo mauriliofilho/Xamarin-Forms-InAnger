@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{F9FB7616-D9F4-44A8-ACD7-2AB0B91A483B}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>InAnger</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)InAnger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PhoenixPeaks\PhoenixPeaksPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Jobbberr\AppStyle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Jobbberr\HomePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Jobbberr\JobsNavigationPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Jobbberr\MasterPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Jobbberr\SettingsPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Jobbberr\SettingsSwitchView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Jobbberr\SettingsUserView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Jobbberr\StatusBarView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Jobbberr\SyncSliderView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Jobbberr\SyncView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FindAVet\VetView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FindAVet\Vet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FindAVet\VetData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FindAVet\FindAVetPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FindAVet\FindAVetApp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Woofer\WooferPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Woofer\DetailsView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Woofer\SlideShowView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HeatMap\AppStyles.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HeatMap\AppData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HeatMap\HeatMapApp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HotSauce\Sauce.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HotSauce\SaucePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HotSauce\HotSauceApp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MallDash\MallDashPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MallDash\DashWidgetView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MallDash\DashSquare.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MallDash\MallDashApp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MallDash\DashData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MallDash\WidgetTappedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MallDash\Pages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Findr\FindrApp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Findr\FindrMapPage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)PhoenixPeaks\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Jobbberr\" />
+    <Folder Include="$(MSBuildThisFileDirectory)FindAVet\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Woofer\" />
+    <Folder Include="$(MSBuildThisFileDirectory)HeatMap\" />
+    <Folder Include="$(MSBuildThisFileDirectory)HotSauce\" />
+    <Folder Include="$(MSBuildThisFileDirectory)MallDash\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Findr\" />
+  </ItemGroup>
+</Project>
